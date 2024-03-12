@@ -9,7 +9,7 @@
 
 <sup>1</sup>S-Lab, Nanyang Technological University, <sup>2</sup>Huazhong University of Science and Technology, <sup>3</sup>SenseTime Research
 
-### [Project](https://xingyi-li.github.io/s-dyrf/) | [Paper](https://github.com/xingyi-li/s-dyrf/) | [arXiv](https://arxiv.org/pdf/2403.06205.pdf) | [Video](https://github.com/xingyi-li/s-dyrf/) | [Supp](https://github.com/xingyi-li/s-dyrf/) | [Poster](https://github.com/xingyi-li/s-dyrf/)
+### [Project](https://xingyi-li.github.io/s-dyrf/) | [Paper](https://github.com/xingyi-li/s-dyrf/) | [arXiv](https://arxiv.org/abs/2403.06205) | [Video](https://github.com/xingyi-li/s-dyrf/) | [Supp](https://github.com/xingyi-li/s-dyrf/) | [Poster](https://github.com/xingyi-li/s-dyrf/)
 
 Coming soon!
 
