@@ -1,0 +1,13 @@
+{
+  "dataset_type": "neural3D_NDC",
+  "scene_name": "coffee_martini",
+  "style_img": [
+    "./dataset/ref_case/coffee_martini_editing/style_editing_coffee_martini.png"
+  ],
+  "tmpl_idx_train": null,
+  "tmpl_idx_test": [
+    0
+  ],
+  "color_pre": true,
+  "style_name": "coffee_martini_editing"
+}

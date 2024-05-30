@@ -1,0 +1,16 @@
+{
+    "dataset_type": "dnerf",
+    "scene_name": "bouncingballs",
+    "style_img": [
+      "./dataset/ref_case/bouncingballs_colorful/style_colorful_bouncingballs.png"
+    ],
+    "tmpl_idx_train": null,
+    "tmpl_idx_test": [
+      16
+    ],
+    "tmpl_idx": [
+      0
+    ],
+    "color_pre": true,
+    "style_name": "bouncingballs_colorful"
+  }

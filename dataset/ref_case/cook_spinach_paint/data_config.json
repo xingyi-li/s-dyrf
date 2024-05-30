@@ -1,0 +1,13 @@
+{
+  "dataset_type": "neural3D_NDC",
+  "scene_name": "cook_spinach",
+  "style_img": [
+    "./dataset/ref_case/cook_spinach_paint/style_paint_cook_spinach.png"
+  ],
+  "tmpl_idx_train": null,
+  "tmpl_idx_test": [
+    0
+  ],
+  "color_pre": true,
+  "style_name": "cook_spinach_paint"
+}

@@ -1,0 +1,16 @@
+{
+    "dataset_type": "dnerf",
+    "scene_name": "jumpingjacks",
+    "style_img": [
+      "./dataset/ref_case/jumpingjacks_pencil/style_pencil_jumpingjacks.png"
+    ],
+    "tmpl_idx_train": null,
+    "tmpl_idx_test": [
+      2
+    ],
+    "tmpl_idx": [
+      16
+    ],
+    "color_pre": true,
+    "style_name": "jumpingjacks_pencil"
+  }

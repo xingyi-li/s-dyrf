@@ -1,0 +1,16 @@
+{
+    "dataset_type": "dnerf",
+    "scene_name": "hook",
+    "style_img": [
+      "./dataset/ref_case/hook_fire/style_fire_hook.png"
+    ],
+    "tmpl_idx_train": null,
+    "tmpl_idx_test": [
+      12
+    ],
+    "tmpl_idx": [
+      0
+    ],
+    "color_pre": true,
+    "style_name": "hook_fire"
+  }

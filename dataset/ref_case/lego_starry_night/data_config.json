@@ -1,0 +1,16 @@
+{
+    "dataset_type": "dnerf",
+    "scene_name": "lego",
+    "style_img": [
+      "./dataset/ref_case/lego_starry_night/style_starry_night_lego.png"
+    ],
+    "tmpl_idx_train": null,
+    "tmpl_idx_test": [
+      5
+    ],
+    "tmpl_idx": [
+      0
+    ],
+    "color_pre": true,
+    "style_name": "lego_starry_night"
+  }

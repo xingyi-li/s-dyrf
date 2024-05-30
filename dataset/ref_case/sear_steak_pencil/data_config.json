@@ -1,0 +1,13 @@
+{
+  "dataset_type": "neural3D_NDC",
+  "scene_name": "sear_steak",
+  "style_img": [
+    "./dataset/ref_case/sear_steak_pencil/style_pencil_sear_steak.png"
+  ],
+  "tmpl_idx_train": null,
+  "tmpl_idx_test": [
+    0
+  ],
+  "color_pre": true,
+  "style_name": "sear_steak_pencil"
+}

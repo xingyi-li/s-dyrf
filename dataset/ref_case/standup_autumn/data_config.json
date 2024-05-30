@@ -1,0 +1,16 @@
+{
+    "dataset_type": "dnerf",
+    "scene_name": "standup",
+    "style_img": [
+      "./dataset/ref_case/standup_autumn/style_autumn_standup.png"
+    ],
+    "tmpl_idx_train": null,
+    "tmpl_idx_test": [
+      18
+    ],
+    "tmpl_idx": [
+      100
+    ],
+    "color_pre": true,
+    "style_name": "standup_autumn"
+  }
