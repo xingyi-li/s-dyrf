@@ -1,0 +1,41 @@
+systems:
+  basedir: "/path/to/s-dyrf/log"
+  add_timestamp: False
+  vis_every: 200
+
+model:
+  model_name: "HexPlane"
+  N_voxel_init: 262144
+  time_grid_init: 16
+  time_grid_final: 24
+  upsampling_type: unaligned
+  upsample_list: [3000, 6000, 9000]
+  update_emptymask_list: [4000, 8000, 10000]
+  fusion_one: "multiply"
+  fusion_two: "multiply"
+  init_scale: 0.9
+  init_shift: 0.5
+  density_dim: 8
+  DensityMode: "general_MLP"
+
+#  TV_weight_density: 0.0
+#  TV_weight_app: 0.0005
+##  TV_weight_app: 0.5
+
+
+data:
+  datadir: "/path/to/s-dyrf/dataset/dnerf/jumpingjacks"
+  scene_bbox_min: [-1.5, -1.5, -1.5]
+  scene_bbox_max: [1.5, 1.5, 1.5]
+  downsample: 2.0
+
+optim:
+  n_iters: 25000
+  lr_decay_type: "exp"
+#  n_iters_style: 30000
+  n_iters_style: 26000
+
+render_test: True
+render_path: True
+stylize: True
+expname: dnerf
