@@ -44,6 +44,20 @@ pip install opencv-python Pillow PyYAML scikit-image scipy tensorflow
 Both [D-NeRF dataset](https://github.com/albertpumarola/D-NeRF) and [Plenoptic dataset](https://github.com/facebookresearch/Neural_3D_Video) can be downloaded from their official websites. Unzip and put them in the directory `dataset`. Please change the "datadir" in config based on the locations of downloaded datasets.
 
 ## Quick Start
+Download checkpoints from [Google Drive](https://drive.google.com/drive/folders/1xkPqBxrHQNOYFzWXyxXiTCnf3H2jm9xK?usp=share_link), and move `stylize` folder to the directory `path/to/s-dyrf/`. Then run the following commands to generate stylized videos:
+
+```bash
+# activate conda environment
+conda activate s-dyrf
+
+# Plenoptic dataset
+python main.py config="config/nv3d/nv3d_${SCENE}_style.yaml" style.ref_data_dir="dataset/ref_case/${STYLE}" systems.ckpt="stylize/neural3D_NDC/${SCENE}/${STYLE}/baseline/ckpt_style.pt" render_only=True render_specific_time=True
+
+# D-NeRF dataset
+python main.py config="config/dnerf/dnerf_${SCENE}_style.yaml" style.ref_data_dir="dataset/ref_case/${STYLE}" systems.ckpt="stylize/dnerf/${SCENE}/${STYLE}/baseline/ckpt_style.pt" render_only=True render_specific_pose=True render_specific_time=True
+```
+
+## Training
 
 ### 0. Modify config file
 
